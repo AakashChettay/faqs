@@ -1,0 +1,40 @@
+/* FAQ Container */
+.faqs-home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f1f5f8;
+}
+
+.faqs-list-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Heading */
+.heading {
+  color: #cb8805;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* FAQ List */
+.faqList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 24px;
+  }
+}
